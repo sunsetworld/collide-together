@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+    background: #1d1d24;
+    color: #ddd;
+    font-family: sans-serif;
+}
+
+#status {
+    padding: 8px 12px;
+}
+
+#controls {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px 16px;
+    align-items: center;
+    padding: 8px 12px;
+}
+
+#controls input[type="text"] {
+    width: 220px;
+}
+
+canvas {
+    display: block;
+}
